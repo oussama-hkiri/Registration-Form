@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <from action="/register" method="post">
+        <div><label for="First Name">First Name:*</label>
+            <input type="text"></div>
+                
+        <div><label for="Last Name">Last Name:*</label>
+            <input type="text"></div>
+
+        <div><label for="email">Email Adress:*</label>
+            <input type="email"></div>
+
+        <div><label for="password">password:*</label>
+            <input type="password"></div>
+
+        <div><label for="Confirm password">Confirm password:*</label>
+            <input type="password"></div>
+        
+        <div><label for="date">Birthday*</label>
+            <input type="date"></div>
+            
+        <div><label for="Gender Identity">Gender Identity: *</label>
+            <div><input type="radio">
+                <label for="Male">Male</label>
+            
+            <input type="radio">
+            <label for="female">female</label>
+
+            <input type="radio">
+            <label for="Non-binary">Non-binary</label>
+
+            <input type="radio">
+            <label for="I prefer not to answer">I prefer not to answer</label>
+            </div>
+        </div>
+
+        <div><label for="A short description about myself">A short description about myself:</label>
+            <div><textarea></textarea></div>
+        </div>
+
+        <div><label for="Favorite Language">Favorite Language:</label>
+            <select>name="Languages" id="Languages">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="Java">Java</option>
+            </select>
+
+        </div>
+
+        <div><input type="checkbox">
+            <label for="Yes, I would like to receive periodic email updates">Yes, I would like to receive periodic email updates</label>
+
+        </div>
+
+        <div><input type="submit" value="Create Account">
+        </div>
+
+        <div><label for="* Indicates a required field">* Indicates a required field</label>
+        </div>
+
+    </from>
+    
+</body>
+</html>
